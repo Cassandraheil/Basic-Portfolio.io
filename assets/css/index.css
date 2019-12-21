@@ -1,5 +1,43 @@
-#picofme {
-    height: 200px;
-    width: 150px;
-    
-}
+
+   #nav{
+       position: relative;
+       top: 100px;
+       content: 80px;
+        padding: 10px;
+       border: 10px;
+       background-color: grey;
+    }
+    .section{
+        position: absolute;
+        top: 200px;
+        left: 175px;
+        content: 960px;
+        background-color: rgba(0, 174, 255, 0.486);
+        padding-left: 25px;
+
+    }
+     #picofme {
+        position: absolute;
+        top: 250px;
+        height: 200px;
+        width: 150px;
+        padding-right: 20px;
+        padding-bottom: 16px;
+        padding-top: ;
+        background-color: rgba(0, 174, 255, 0.486);
+    }
+    .btn1 {
+        position: absolute;
+        right: 210px;
+        bottom: 10px;
+    }
+    .btn2{
+        position: Absolute;
+        right: 125px;
+        bottom: 10px;
+    }
+    .btn3{
+        position: absolute;
+        right: 50px; 
+        bottom: 10px;
+    }
