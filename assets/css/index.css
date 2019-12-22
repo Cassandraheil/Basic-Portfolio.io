@@ -1,30 +1,41 @@
 
    #nav{
        position: relative;
-       top: 100px;
        content: 80px;
-        padding: 10px;
-       border: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
        background-color: grey;
+       z-index: 1;
+       width: 100%;
+       text-align: center;
+       margin-right: 100px;
     }
     .section{
         position: absolute;
         top: 200px;
-        left: 175px;
-        content: 960px;
         background-color: rgba(0, 174, 255, 0.486);
-        padding-left: 25px;
-
+        padding-bottom: 100px;
+        padding-left: 200px;
+        padding-right: 50px;
+        padding-top: 25px;
+        width: 710px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 17%;
+    }
+    #aboutme {
+        position: absolute;
+        top: 182px;
+        z-index: 1;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 17%;
     }
      #picofme {
         position: absolute;
         top: 250px;
-        height: 200px;
-        width: 150px;
-        padding-right: 20px;
-        padding-bottom: 16px;
-        padding-top: ;
-        background-color: rgba(0, 174, 255, 0.486);
+        height: 220px;
+        width: 175px;
+        z-index: 1;
+        margin-left: 17%;
     }
     .btn1 {
         position: absolute;
@@ -40,4 +51,55 @@
         position: absolute;
         right: 50px; 
         bottom: 10px;
+    }
+    #background {
+        position: absolute;
+        height: 1100px;
+        width: 100%;
+        z-index: -1;
+    }
+    #h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #contact{
+        position: absolute;
+        bottom: 450px;
+        padding-left: 200px;
+    }
+    .pic {
+        position: absolute;
+        position: inline;
+        height: 200px;
+        width: 200px;
+        bottom: 50px;
+    }
+    .pic0{
+        position: absolute;
+        bottom: 300px;
+        left: 200px;
+    }
+    .bunny{
+        position: absolute;
+        bottom: 200px;
+        left: 300px;
+    }
+    .star {
+        position: absolute;
+        bottom: 200px;
+        left: 600px;
+    }
+    .balls{
+        position: absolute;
+        bottom: -50px;
+        left: 600px;
+    }
+    .food {
+        position: absolute;
+        bottom: -50px;
+        left: 300px;
+    }
+    .blue {
+        position: absolute;
+        bottom: -300px;
+        left: 300px;
     }
